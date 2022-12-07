@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <img src="simran.jpeg.jpg" class="img">
+        <div class="content">
+             <h1>Simranjit Kaur</h1>
+            <p>Software developer</p>
+            <button type="button" class="btn">
+            <a href="simran resume restuarant.docx" download="resume.docx" style="color:rgb(147, 118, 82, 0.546)"><b>Resume</b></button></a>
+            <button type="button" class="btn">
+                <a href="#container" style="color:rgb(147, 118, 82, 0.546)"><b>Contact</b></button></a>
+    </div>
+    <br>
+    <div class="row">
+        <div class="column" style="background-color:rgb(147, 118, 82, 0.546)">
+        <h2> Academic integrity</h2>
+    <p>
+I declare that my assessment is wholly my own work in accordance with Seneca Academic
+Policy. No part of this assessment has been copied manually or electronically from any other
+source (including web sites) except for the information supplied by the WEB222 instructors and /
+or made available in this assessment for my use..</p>
+    </div>
+        <div class="column" style="background-color:rgb(147, 118, 82, 0.546)">
+            <h2>Basic Details</h2>
+       <p> 
+           <pre><em><b>AGE:</b>                                         </em> 18</pre>
+           <pre><em><b>                      EMAIL:</b>  </em>                                      skaur931@myseneca.ca</pre>
+           <pre><em><b>LANGUAGE:</b>     </em>                                English</pre>
+           <pre><em><b>     CLASS SECTION:</b></em>                                WEB222 NII</pre>
+           <pre><em><b>STUDENT ID:</b>    </em>                               164919219</pre>
+           <pre><em><b>INSTRUCTOR:</b> </em>                                  Robin Li</pre>
+       </p>
+       </div>
+    </div>
+       <br>
+       <h1 class="h1edu">PRESENT EDUCATION</h1>
+       <div class="row2">
+           <div class="column2" style="background-color:rgb(147, 118, 82, 0.546)">
+       <p>
+           <b>2022 - 2023</b>
+           <br><br>
+           Diploma in Computer Programming(CPP)
+       </p>
+    </div>
+    <div class="column2" style="background-color:rgb(147, 118, 82, 0.546)">
+        <h2>ABOUT ME</h2>
+       <p>
+           <b> Diploma</b>
+           <br><br>
+           Seneca college
+           <br>
+           Professor ~Robin Li
+       </p>
+    </div>
+    </div>
+    <div id="container">
+        <h1>Welcome!</h1>
+          <form action="https://httpbin.org/post" method="post">
+        
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name..."required>
+        
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your last name..."required>
+      
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email here..."required>
+        
+             <label for="address">Address</label>
+             <input type="text" id="address" name="address" placeholder="Enter your address..."required> 
+      
+                
+             <label for="postalcode">Postal Code</label>
+             <input type="text" id="postalcode" name="postalcode" pattern="^[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d$" placeholder="Enter your postal code here..."required> 
+      
+            <label for="city">City</label>
+      
+            <select id="city" name="city"required>
+              <option value="Brampton">Toronto</option>
+              <option value="Toronto">Brampton</option>
+              <option value="Missisauga">Oakville</option>
+              <option value="Vaughan">Hamilton</option>
+              <option value="Ottawa">Ottawa</option>
+              <option value="Hamilton">Vaughan</option>
+             </select>
+      
+            <label for="status">Status</label><br>
+            <input type="radio" id="one" name="selection"required onclick=" checkButton()">
+            <label for="one"> Question</label>
+            <div class="radio_demo"></div>
+      
+            <input type="radio" id="two" name="selection"required onclick=" checkButton()">
+            <label for="two"> Comment</label>
+            <div class="radio_demo"></div>
+      
+            </div>
+            <textarea id="submit" name="submit" placeholder="" style="height:200px"required></textarea>
+            
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+  </body>
+</html>
+
